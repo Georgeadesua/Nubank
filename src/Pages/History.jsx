@@ -3,15 +3,16 @@ import BottomNavBar from '../components/BottomNavBar';
 
 const History = () => {
   const transactions = [
-    { date: '7 OCT 2024, MONDAY', entries: [
-      { type: 'Transfer', description: 'WALLET NUMBER 441044', amount: '$20,600', status: 'credit' },
-    ]},
-    { date: '9 OCT 2024, WEDNESDAY', entries: [
-        { type: 'Transfer', description: 'WALLET NUMBER 441044', amount: '$50,600', status: 'credit' },
-    ]},
     { date: '19 OCT 2024, SATURDAY', entries: [
         { type: 'Transfer', description: 'WALLET NUMBER 441044', amount: '$53,546.00', status: 'credit' },
-      ]}
+      ]},
+      { date: '9 OCT 2024, WEDNESDAY', entries: [
+        { type: 'Transfer', description: 'WALLET NUMBER 441044', amount: '$50,600.00', status: 'credit' },
+    ]},
+    { date: '7 OCT 2024, MONDAY', entries: [
+      { type: 'Transfer', description: 'WALLET NUMBER 441044', amount: '$20,600.00', status: 'credit' },
+    ]}
+   
   ];
 
   return (
