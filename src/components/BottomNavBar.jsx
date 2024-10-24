@@ -6,8 +6,10 @@ const BottomNavBar = () => {
   return (
     <div className="bg-white shadow-md py-3 fixed bottom-0 inset-x-0 flex justify-around">
       <div className="flex flex-col items-center">
+      <Link to="/home">
       <FaHome className="w-4 h-4" />
         <span className="text-xs">Home</span>
+        </Link>
       </div>
       <div className="flex flex-col items-center">
       <FaBars className="w-4 h-4" />
