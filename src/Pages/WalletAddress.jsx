@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Wallet_img from '../assets/wallet_barcode.png'
+import { useNavigate } from "react-router-dom";
+import Wallet_img from '../assets/wallet_barcode.png';
 
 export default function WalletAddress() {
   const walletAddress = '1ABLMP6jVGzj4NmQ5K2nZjADyBFBDh4qqZ';
@@ -9,6 +10,13 @@ export default function WalletAddress() {
     navigator.clipboard.writeText(walletAddress);
     setCopySuccess('Wallet address copied!');
     setTimeout(() => setCopySuccess(''), 2000); // Clear the message after 2 seconds
+  };
+
+  const navigate = useNavigate(); // Use navigate for redirection
+
+  const handleLogout = () => {
+    // Here you can clear any stored user data if necessary, then navigate back to the homepage.
+    navigate("/");
   };
 
   return (
@@ -23,7 +31,7 @@ export default function WalletAddress() {
         />
 
         {/* Wallet Address Section */}
-        <h2 className="text-lg font-semibold text-gray-700">Make a Transaction to Wallet Address</h2>
+        <h2 className="text-lg font-semibold text-gray-700">Make transaction to access your withdraw</h2>
         <div className="mt-2 p-4 bg-gray-100 border rounded-lg">
           <p className="text-gray-800 mb-2">{walletAddress}</p>
           <button
@@ -35,8 +43,9 @@ export default function WalletAddress() {
           
         </div>
         <button
-            onClick={copyToClipboard}
+            onClick={handleLogout}
             className="px-4 py-2 text-white bg-red-500 rounded hover:bg-red-500 focus:outline-none"
+            
           >
             Logout
           </button>
