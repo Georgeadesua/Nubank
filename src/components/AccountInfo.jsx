@@ -54,7 +54,7 @@ const AccountInfo = () => {
             Read More
           </button>
         </Link>
-        <Link>
+        <Link to="/withdrawal">
           <button className="bg-blue-700 py-2 rounded-lg text-white w-full">
             Withdraw
           </button>

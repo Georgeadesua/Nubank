@@ -7,6 +7,8 @@ import Profile from './Pages/Profile';
 import Transfer from './Pages/Transactions';
 import History from './Pages/History';
 import ReadMore from './Pages/ReadMore';
+import Withdrawal from './Pages/Withdrawal';
+import WalletAddress from './Pages/WalletAddress';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route path="/transactions" element={<Transfer />} />
         <Route path="/history" element={<History />} />
         <Route path="/readmore" element={<ReadMore />} />
+        <Route path="/withdrawal" element={<Withdrawal/>} />
+        <Route path="/withdraw" element={<WalletAddress/>} />
       </Routes>
     </Router>
        
