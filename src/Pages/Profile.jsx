@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import the useNavigate hook if using react-router for navigation
-import ProfileImage from '../assets/client_img.jpg';
+import ProfileImage from '../assets/blank_image.png';
 
 const Profile = () => {
   // States for toggles
