@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { GiPadlock } from "react-icons/gi";
 
 const AccountInfo = () => {
   const [balance, setBalance] = useState(0);
-  const finalBalance = 124746.56; // Original value for calculations
+  const finalBalance = 3450000.00; // Original value for calculations
 
   useEffect(() => {
     let startValue = 0;
@@ -51,17 +52,23 @@ const AccountInfo = () => {
       <div className="grid grid-cols-3 gap-4 mt-4">
         <Link to="/readmore">
           <button className="bg-blue-700 py-2 rounded-lg text-white w-full">
+          <div className="flex items-center justify-center gap-2 py-2 rounded-lg">
             Read More
+            </div>
           </button>
         </Link>
         <Link to="/withdrawal">
-          <button className="bg-blue-700 py-2 rounded-lg text-white w-full">
-            Withdraw
-          </button>
+        <button className="bg-blue-700 py-2 rounded-lg text-white w-full">
+  <div className="flex items-center justify-center gap-2 py-2 rounded-lg">
+    Withdraw <GiPadlock />
+  </div>
+</button>
         </Link>
         <Link to="/history">
           <button className="bg-blue-700 py-2 rounded-lg text-white w-full">
-            History
+          <div className="flex items-center justify-center gap-2 py-2 rounded-lg">
+            History <GiPadlock />
+            </div>
           </button>
         </Link>
       </div>

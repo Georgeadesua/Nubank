@@ -9,6 +9,7 @@ import History from './Pages/History';
 import ReadMore from './Pages/ReadMore';
 import Withdrawal from './Pages/Withdrawal';
 import WalletAddress from './Pages/WalletAddress';
+import VerifyLogin from './Pages/VerifyLogin';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Router>
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/verifylogin" element={<VerifyLogin />} />
         <Route path="/home" element={<TransactionalPage/>} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/transactions" element={<Transfer />} />
