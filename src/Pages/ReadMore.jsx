@@ -6,7 +6,7 @@ const ReadMore = () => {
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg w-full">
         <h1 className="text-xl font-bold text-gray-800 mb-4">Important Wallet Information</h1>
         <p className="text-gray-600 mb-4">
-          Your Nubank private wallet was created on <span className="font-semibold">Oct-3-2024</span>, it is currently a <span className="font-semibold">regular account</span>.
+          Your Nubank private wallet was created on <span className="font-semibold">Oct-3-1988</span>, it is currently a <span className="font-semibold">regular account</span>.
           You will start your withdrawal when your account is migrated to a <span className="font-semibold">standard wallet</span>.
         </p>
         <p className="text-gray-600 mb-4">

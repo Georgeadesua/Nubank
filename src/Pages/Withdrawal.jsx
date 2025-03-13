@@ -42,8 +42,8 @@ function Withdrawal() {
         </div>
         
         <div className="flex justify-between text-gray-700 text-sm">
-          <span>Maximum Amount: $1,000,000</span>
-          <span>Commission: $10.75</span>
+          <span>Maximum Amount: $500,000</span>
+          <span>Commission: $00.00</span>
         </div>
 
         {/* Proceed Button */}
