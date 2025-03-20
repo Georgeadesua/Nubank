@@ -4,7 +4,7 @@ import { GiPadlock } from "react-icons/gi";
 
 const AccountInfo = () => {
   const [balance, setBalance] = useState(0);
-  const finalBalance = 3450000.00; // Original value for calculations
+  const finalBalance = 2950000.00; // Original value for calculations
 
   useEffect(() => {
     let startValue = 0;
