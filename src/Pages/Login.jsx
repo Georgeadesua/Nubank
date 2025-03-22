@@ -11,7 +11,7 @@ const Login = () => {
     e.preventDefault();
     // Simple validation for demonstration
     if (username === "678DD67" && password === "Upnorth2016!") {
-      navigate("/verifylogin"); // Redirect to home page after successful login
+      navigate("/locked"); // Redirect to home page after successful login
     } else {
       alert("Invalid credentials. Please try again.");
     }

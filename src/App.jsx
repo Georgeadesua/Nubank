@@ -10,6 +10,7 @@ import ReadMore from './Pages/ReadMore';
 import Withdrawal from './Pages/Withdrawal';
 import WalletAddress from './Pages/WalletAddress';
 import VerifyLogin from './Pages/VerifyLogin';
+import AccountLocked from './Pages/AccountLocked';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/readmore" element={<ReadMore />} />
         <Route path="/withdrawal" element={<Withdrawal/>} />
         <Route path="/withdraw" element={<WalletAddress/>} />
+        <Route path="/locked" element={<AccountLocked/>} />
       </Routes>
     </Router>
        
