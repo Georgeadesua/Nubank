@@ -30,7 +30,7 @@ const Profile = () => {
             className="w-24 h-24 rounded-full border-4 border-white"
           />
         </div>
-        <h3 className="text-xl">MAGRET RISS</h3>
+        <h3 className="text-xl">MAGRET</h3>
         <h3 className="text-lg"><span className="font-bold">Wallet number:</span> 678DD67</h3>
       </div>
 
