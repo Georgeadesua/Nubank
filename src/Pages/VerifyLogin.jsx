@@ -7,7 +7,7 @@ const VerifyLogin = () => {
 
   const correctAnswers = {
     question1: "Brece",
-    question2: "Kelly",
+    question2: "Laurel High school",
   };
 
   const handleSubmit = (e) => {
@@ -45,7 +45,7 @@ const VerifyLogin = () => {
           </div>
           <div>
             <label className="block text-sm font-medium text-gray-700">
-              What's the best gift MAGRET claims she had?
+              What's the name of MAGRET first school?
             </label>
             <input
               type="text"
